@@ -98,10 +98,13 @@
 html {
   font-size: var(--font-size);
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
+  width: 100%;
+  overflow-x: hidden;
   background: var(--background);
   color: var(--foreground);
   font-family: 'Inter', sans-serif;
