@@ -33,7 +33,7 @@
   gap: 2rem;
   align-items: center;
   background: var(--blue);
-  transition: box-shadow 0.4s ease;
+  transition: opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1), transform 0.55s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.4s ease;
   overflow: hidden;
 }
 

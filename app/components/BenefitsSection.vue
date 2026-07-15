@@ -79,7 +79,7 @@ import { CheckCircle } from 'lucide-vue-next'
   padding: 1.75rem;
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  transition: background-color 0.25s ease, border-color 0.25s ease;
+  transition: opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1), transform 0.55s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.25s ease, border-color 0.25s ease;
 }
 
 .benefits__card:hover {

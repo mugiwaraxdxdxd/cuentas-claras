@@ -79,13 +79,14 @@ const SERVICES = [
   border-radius: 1rem;
   padding: 1.75rem;
   border: 1px solid var(--border);
-  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease, border-color 0.25s ease;
+  transition: opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1), transform 0.55s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
 .services__card:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 32px rgba(22, 160, 133, 0.12);
   border-color: rgba(22, 160, 133, 0.28);
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
 .services__icon {

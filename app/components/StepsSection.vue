@@ -71,12 +71,13 @@ import { ArrowUpRight } from 'lucide-vue-next'
   border-radius: 1rem;
   padding: 1.75rem;
   border: 1px solid var(--border);
-  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease;
+  transition: opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1), transform 0.55s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease;
 }
 
 .steps__card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 24px rgba(17, 24, 39, 0.08);
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease;
 }
 
 .steps__number {

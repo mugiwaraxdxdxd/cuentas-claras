@@ -87,13 +87,14 @@ import { XCircle, ArrowUpRight } from 'lucide-vue-next'
   border-radius: 1rem;
   padding: 1.25rem;
   border: 1px solid var(--border);
-  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.25s ease, background-color 0.25s ease;
+  transition: opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1), transform 0.55s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.25s ease, background-color 0.25s ease;
 }
 
 .pains__item:hover {
   transform: translateX(4px);
   border-color: #FCA5A5;
   background-color: rgba(254, 242, 242, 0.5);
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.25s ease, background-color 0.25s ease;
 }
 
 .pains__item-icon {
