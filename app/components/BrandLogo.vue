@@ -1,0 +1,13 @@
+<script setup lang="ts">
+withDefaults(defineProps<{ size?: number; light?: boolean }>(), { size: 40, light: false })
+</script>
+
+<template>
+  <svg :width="size" :height="size" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+    <g :stroke="light ? '#FFFFFF' : '#111827'" stroke-width="3.4" stroke-linecap="round">
+      <path d="M32 6v6M32 52v6M58 32h-6M12 32H6M50 14l-4 4M18 46l-4 4M50 50l-4-4M18 18l-4-4" />
+    </g>
+    <circle cx="32" cy="32" r="13" fill="#16A085" />
+    <path d="M26 32l4 4 9-9" stroke="#FFFFFF" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" />
+  </svg>
+</template>
